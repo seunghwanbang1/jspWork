@@ -6,6 +6,7 @@
 <h6>html</h6>
 
 <style>
+
 	h2 {
 			color : orange;
 	}
@@ -17,6 +18,7 @@
 	h5 {
 			color : purple;
 	}
+	
 </style>
 
 <link rel="stylesheet" href="styles.css">

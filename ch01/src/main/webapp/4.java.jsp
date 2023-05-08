@@ -34,10 +34,22 @@ System.out.print(num);
    out.print(num3); %>
    
 <% int num4; %>
-<%= num5 %>
+<%= num4 %>
 
 <% int plus(int num1, int num2) {
    		return num1 + num2;
    } %>
    
 --%>
+
+<%! int num3; %>
+<% out.print(num3); %>
+
+<%! int num4; %>
+<%= num4 %>
+
+<%! int plus(int num1, int num2) {
+		return num1 + num2;
+	} %>
+	
+<% out.print(plus(1,2)); %>
